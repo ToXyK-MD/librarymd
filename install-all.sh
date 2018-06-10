@@ -1,5 +1,4 @@
-set -e
-set -x
+set -ex
 
 # Ansible script expects webapp.tgz inside ansible directory
 rm -f ansible/webapp.tgz
